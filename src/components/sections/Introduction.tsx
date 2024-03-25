@@ -15,7 +15,7 @@ function TextsContainer() {
         <div className="flex flex-col justify-between gap-10 xl:gap-0">
             <h2 className="font-semibold">WE MADE IT EASY.</h2>
             <div className="space-y-5">
-                <h1 className="text-7xl sm:text-8xl flex flex-col sm:flex-row xl:flex-col xl:gap-0 gap-5">
+                <h1 className="text-7xl sm:text-8xl flex flex-col sm:flex-row xl:flex-col xl:gap-0 gap-5 [text-shadow:_0px_1px_20px_hsl(var(--primary))]">
                     <span>Trade</span> <span>Crypto.</span>
                 </h1>
 

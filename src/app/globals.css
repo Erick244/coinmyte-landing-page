@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --background: #06021c;
-    --primary: #a621c4;
+@layer base {
+    :root {
+        --background: 249 87% 6%;
+        --primary: 289 71% 45%;
+    }
 }
