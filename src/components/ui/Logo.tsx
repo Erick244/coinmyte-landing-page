@@ -8,18 +8,15 @@ export function Logo(props: HTMLAttributes<HTMLAnchorElement>) {
         <Link
             {...props}
             href="#"
-            className={cn(
-                "flex items-center gap-1 select-none",
-                props.className
-            )}
+            className={cn("flex items-center gap-1", props.className)}
         >
             <Image
-                src="/images/logo-image.png"
-                width={67}
+                className="select-none"
+                src="/images/utils/logo.png"
+                width={167}
                 height={67}
                 alt="Coinmyte Image Logo"
             />
-            <span className="text-sm font-bold">Coinmyte.</span>
         </Link>
     );
 }

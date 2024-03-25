@@ -22,7 +22,7 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={cn(
-                    "min-h-screen antialiased bg-background text-white",
+                    "min-h-screen antialiased bg-background text-white bg-[url('/images/utils/bg.png')] bg-no-repeat bg-cover",
                     young.className
                 )}
             >
