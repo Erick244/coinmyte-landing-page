@@ -3,9 +3,12 @@ import { Button } from "../ui/Button";
 
 export function Introduction() {
     return (
-        <div className="flex justify-between xl:flex-row xl:items-stretch gap-10 xl:gap-0 items-center flex-col h-full py-14 px-10 xl:px-0 max-w-7xl w-full m-auto ">
-            <TextsContainer />
-            <ImagesContainer />
+        <div className="w-full h-full bg-[url('/images/introduction/intro-design1.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-left 2xl:bg-cover">
+            <div className="flex justify-between xl:flex-row xl:items-stretch gap-10 xl:gap-0 items-center flex-col h-full py-14 px-10 xl:px-0 max-w-7xl w-full m-auto">
+                <TextsContainer />
+                <ImagesContainer />
+            </div>
+            <ArrowsDesign />
         </div>
     );
 }
@@ -63,6 +66,32 @@ function ImagesContainer() {
                     </p>
                 </div>
             </div>
+        </div>
+    );
+}
+
+function ArrowsDesign() {
+    return (
+        <div className="flex justify-between items-center sm:px-20 px-10 py-5 border-t-2 border-white">
+            <Image
+                alt="Arrow left design image"
+                src="/images/introduction/intro-design-arrow.png"
+                width={36}
+                height={27}
+            />
+            <Image
+                alt="Shape design image"
+                src="/images/introduction/intro-design-shape.png"
+                width={57}
+                height={29}
+            />
+            <Image
+                className="rotate-180"
+                alt="Arrow right design image"
+                src="/images/introduction/intro-design-arrow.png"
+                width={36}
+                height={27}
+            />
         </div>
     );
 }
