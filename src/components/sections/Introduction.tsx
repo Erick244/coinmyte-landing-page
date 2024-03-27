@@ -1,26 +1,29 @@
 import Image from "next/image";
+import { H1 } from "../typography/H1";
+import { H2 } from "../typography/H2";
+import { P } from "../typography/P";
 import { Button } from "../ui/Button";
 
 export function Introduction() {
     return (
-        <div className="w-full h-full bg-[url('/images/introduction/intro-design1.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-left 2xl:bg-cover">
+        <section className="w-full h-full bg-[url('/images/introduction/intro-design1.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-left 2xl:bg-cover">
             <div className="flex justify-between xl:flex-row xl:items-stretch gap-10 xl:gap-0 items-center flex-col h-full py-14 px-10 xl:px-0 max-w-7xl w-full m-auto">
                 <TextsContainer />
                 <ImagesContainer />
             </div>
             <ArrowsDesign />
-        </div>
+        </section>
     );
 }
 
 function TextsContainer() {
     return (
         <div className="flex flex-col justify-between gap-10 xl:gap-0">
-            <h2 className="font-semibold">WE MADE IT EASY.</h2>
+            <H2>WE MADE IT EASY.</H2>
             <div className="space-y-5">
-                <h1 className="text-7xl sm:text-8xl flex flex-col sm:flex-row xl:flex-col xl:gap-0 gap-5 [text-shadow:_0px_1px_20px_hsl(var(--primary))]">
+                <H1 className="flex flex-col sm:flex-row xl:flex-col xl:gap-0 gap-5">
                     <span>Trade</span> <span>Crypto.</span>
-                </h1>
+                </H1>
 
                 <div className="flex gap-5 xl:gap-0 xl:justify-between">
                     <Button className="bg-white text-background sm:px-5 sm:py-3 px-2 py-2 text-sm">
@@ -56,14 +59,14 @@ function ImagesContainer() {
                     <h3 className="font-semibold text-xl mb-2 ">
                         Decentralized - 01
                     </h3>
-                    <p className="text-xs max-w-[350px] w-full text-pretty">
+                    <P className="max-w-[350px] w-full">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud exercitation ullamco labo- ris nisi ut aliquip
                         ex ea commodo consequat. Duis aute irure dolor in
                         reprehenderit in voluptate velit esse cillum dolore.
-                    </p>
+                    </P>
                 </div>
             </div>
         </div>
