@@ -15,10 +15,10 @@ export function MenuContent({ children, ...props }: MenuContentProps) {
             {...props}
             ref={menuRef}
             className={cn(
-                "h-screen px-5 py-8 flex flex-col gap-10 max-w-sm bg-gradient-to-br to-primary to-100% from-background from-40% absolute top-0 right-0 transition-all duration-500 ease-custom overflow-hidden shadow-lg shadow-black/30 border-l-4 border-primary",
+                "w-10/12 h-screen px-5 py-8 flex flex-col gap-10 max-w-sm bg-gradient-to-br to-primary to-100% from-background from-40% absolute top-0 right-0 transition-all duration-500 ease-custom overflow-hidden shadow-lg shadow-black/30 border-l-4 border-primary",
                 menuIsVisible
-                    ? "visible opacity-100 w-10/12"
-                    : "invisible opacity-0 w-0",
+                    ? "visible opacity-100 translate-x-0"
+                    : "invisible opacity-0 translate-x-full",
                 props.className
             )}
         >

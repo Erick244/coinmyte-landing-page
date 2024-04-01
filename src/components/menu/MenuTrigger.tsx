@@ -14,7 +14,7 @@ export function MenuTrigger({ children, ...props }: MenuTriggerProps) {
     return (
         <Button
             {...props}
-            className={cn("bg-white text-background", props.className)}
+            className={cn("bg-transparent text-white", props.className)}
             id="menu-trigger"
             onClick={toggleMenuVisibility}
         >

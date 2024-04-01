@@ -5,7 +5,7 @@ import { P } from "../typography/P";
 
 export function Trusted() {
     return (
-        <section className="h-full w-full py-14 px-10 flex flex-col items-center gap-5">
+        <section className="h-full w-full py-14 px-10 flex flex-col items-center gap-5 border-b-2 border-white">
             <div className="w-full flex justify-center sm:justify-end">
                 <Image
                     src="/images/trusted/trusted-1.png"

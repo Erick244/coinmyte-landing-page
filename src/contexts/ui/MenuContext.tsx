@@ -33,6 +33,8 @@ export default function MenuContextProvider({
     const outsideClick = useCallback(
         (e: MouseEvent) => {
             const menu = menuRef.current as unknown as Element;
+            if (!menu) return;
+
             const elementClicked = e.target as Element;
 
             const elementClickedParentNode =
@@ -42,8 +44,6 @@ export default function MenuContextProvider({
                 elementClickedParentNode.id === "menu-trigger";
 
             if (elementClickedIsTheMenuTrigger) return;
-
-            if (!menu.contains) return;
 
             const menuNotContainsElementClicked =
                 !menu.contains(elementClicked);

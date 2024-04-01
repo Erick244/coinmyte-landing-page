@@ -56,7 +56,7 @@ function ImagesContainer() {
                 />
 
                 <div className="ml-6">
-                    <h3 className="font-semibold text-xl mb-2 ">
+                    <h3 className="font-semibold text-xl mb-2">
                         Decentralized - 01
                     </h3>
                     <P className="max-w-[350px] w-full">
@@ -89,7 +89,7 @@ function ArrowsDesign() {
                 height={29}
             />
             <Image
-                className="rotate-180"
+                className="rotate-180 -z-10"
                 alt="Arrow right design image"
                 src="/images/introduction/intro-design-arrow.png"
                 width={36}
