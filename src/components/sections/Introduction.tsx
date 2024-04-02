@@ -26,10 +26,10 @@ function TextsContainer() {
                 </H1>
 
                 <div className="flex gap-5 xl:gap-0 xl:justify-between">
-                    <Button className="bg-white text-background sm:px-5 sm:py-3 px-2 py-2 text-sm">
+                    <Button className="bg-white text-background sm:px-5 px-3 sm:py-3 py-2 text-sm">
                         GET STARTED
                     </Button>
-                    <Button className="bg-transparent border-2 border-white text-white m:px-5 sm:py-3 px-2 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-background">
+                    <Button className="bg-transparent border-2 border-white text-white sm:px-5 px-3 sm:py-3 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-background">
                         LEARN MORE
                     </Button>
                 </div>
