@@ -26,7 +26,7 @@ export function Features() {
                         <Image
                             className="border-2 border-white shadow-[0px_0px_50px] shadow-primary rounded-bl-3xl rounded-tr-3xl"
                             src="/images/features/features-mobile.jpg"
-                            alt="Temp"
+                            alt="Crypto coin the center of attention"
                             width={500}
                             height={445}
                         />
@@ -58,7 +58,7 @@ export function Features() {
                     <div className="row-span-6 flex justify-center">
                         <Image
                             src="/images/features/design-phone.png"
-                            alt="Temp"
+                            alt="App mobile trade crypto coins demonstration"
                             width={390}
                             height={763}
                         />

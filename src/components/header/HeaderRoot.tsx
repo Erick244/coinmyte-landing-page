@@ -10,7 +10,7 @@ export function HeaderRoot({ children, ...props }: HeaderRootProps) {
         <header
             {...props}
             className={cn(
-                "z-10 flex justify-between items-center py-2 px-10 xl:px-0 max-w-7xl w-full m-auto sticky top-0 backdrop-blur-lg transition-all duration-300 border-b-2 border-primary",
+                "z-10 flex justify-between items-center py-2 px-10 xl:px-0 max-w-7xl w-full m-auto sticky top-0 backdrop-blur-lg transition-all duration-300 border-b-2 border-primary bg-background/20",
                 props.className
             )}
         >
