@@ -5,7 +5,7 @@ import { Button } from "../ui/Button";
 
 export function About() {
     return (
-        <section className="w-full h-full bg-[url('/images/about/about-design.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-right flex justify-between items-center">
+        <section className="w-full h-full bg-[url('/images/about/about-design.png')] bg-no-repeat border-b-2 border-white sm:bg-contain sm:bg-right flex justify-between items-center">
             <div className="w-1/2 hidden sm:block">
                 <Image
                     src="/images/about/about.png"

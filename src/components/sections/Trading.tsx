@@ -6,7 +6,7 @@ import { Button } from "../ui/Button";
 
 export function Trading() {
     return (
-        <section className="w-full h-full bg-[url('/images/trading/trading-design.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-left xl:bg-cover bg-white">
+        <section className="w-full h-full bg-[url('/images/trading/trading-design.png')] bg-no-repeat sm:bg-contain sm:bg-left xl:bg-cover bg-white">
             <div className="flex justify-between xl:flex-row gap-10 xl:gap-0 items-center flex-col h-full py-14 px-10 xl:px-0 max-w-7xl w-full m-auto">
                 <div className="text-background space-y-7">
                     <H3>Decentralized - 01</H3>
