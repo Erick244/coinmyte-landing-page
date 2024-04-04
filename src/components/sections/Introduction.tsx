@@ -6,7 +6,7 @@ import { Button } from "../ui/Button";
 
 export function Introduction() {
     return (
-        <section className="w-full h-full bg-[url('/images/introduction/intro-design1.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-left 2xl:bg-cover">
+        <section className="w-full h-full bg-[url('/images/introduction/intro-design1.png')] bg-no-repeat border-t-2 border-white sm:bg-contain sm:bg-left 2xl:bg-cover sm:py-20">
             <div className="flex justify-between xl:flex-row xl:items-stretch gap-10 xl:gap-0 items-center flex-col h-full py-14 px-10 xl:px-0 max-w-7xl w-full m-auto">
                 <TextsContainer />
                 <ImagesContainer />
