@@ -4,6 +4,7 @@ import { Introduction } from "@/components/sections/Introduction";
 import { Learn } from "@/components/sections/Learn";
 import { Trading } from "@/components/sections/Trading";
 import { Trusted } from "@/components/sections/Trusted";
+import { Why } from "@/components/sections/Why";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <Trading />
             <About />
             <Learn />
+            <Why />
         </div>
     );
 }
