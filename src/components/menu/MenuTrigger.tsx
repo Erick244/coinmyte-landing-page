@@ -17,6 +17,7 @@ export function MenuTrigger({ children, ...props }: MenuTriggerProps) {
             className={cn("bg-transparent text-white", props.className)}
             id="menu-trigger"
             onClick={toggleMenuVisibility}
+            aria-label="Open or close menu button"
         >
             {Children.map(children, (child) =>
                 cloneElement(child as any, { id: "menu-trigger" })
